@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": [ "Hello", "Hi", "Hai", "Apa khabar?", "Selamat pagi", "Selamat tengah hari", "Selamat petang", "Selamat malam", "Assalamualaikum"],
+      "responses": [ "Hai! Nama saya RDSbot. Bagaimana saya boleh tolong anda? :>", "Hello! Saya RDSbot dari RDS Restoran! Macam mana saya boleh bantu anda? :D", "Beep Boop.... Saya RDSbot, bolehkah saya tolong anda? :o" ]
+    },
+
+    {
+      "tags": "name",
+      "patterns": [ "Apakah nama anda?", "Siapa yang ciptakan anda?", "Berapakah umur anda?", "nama"],
+      "responses": [ "Beep.... Nama saya RDSbot! :D Saya dicipta oleh ahli-ahli jabatan IT RDS dan saya berumur 1 tahun :3" ]
+    },
+
+    {
+      "tags": "bot",
+      "patterns": [ "Adakah anda manusia atau robot?", "Adakah anda manusia?", "robot atau manusia?", "Anda adalah robot?" ],
+      "responses": [ "Beep! Haiya, memang jelaslah saya robot. Malunya saya :<", "Beep... Beep... Boop.... Boop..." ]
+    },
+
+    {
+      "tags": "book_table",
+      "patterns": [ "Bolehkah saya menempah meja?", "Saya nak tempah meja", "Bolehkah kamu tolong tempahkan meja untuk saya?", "Bolehkah saya tempahkan tempat duduk di restoran?", "Saya ingin membuat tempahan", "Saya ingin menempah meja", "Bila boleh saya menempah meja?" ],
+      "responses": [ "Beep! Boleh! Bilakah anda ingin membuat tempahan meja?", "Sila menentukan masa yang anda ingin membuat tempahan :D" ]
+    },
+
+    {
+      "tags": "reserve_time",
+      "patterns": [ "Saya ingin menempah meja untuk pukul satu petang", "Saya ingin menempah meja untuk pukul dua petang", "Saya ingin menempah meja untuk pukul tiga petang", "Saya ingin menempah meja untuk pukul empat petang", "Saya ingin menempah meja untuk pukul lima petang", "Saya ingin menempah meja untuk pukul enam petang", "Saya ingin menempah meja untuk pukul tujuh petang", "Saya ingin menempah meja untuk pukul lapan malam", "Saya ingin menempah meja untuk pukul sembilan malam", "Saya ingin menempah meja untuk pukul sepuluh malam", "Saya ingin menemapah meja pada hari Isnin", "Saya ingin menempah meja pada hari Selasa", "Saya ingin menempah meja pada hari Rabu", "Saya ingin menempah meja pada hari Khamis", "Saya ingin menempah meja pada hari Jumaat", "Saya ingin menempah meja pada jam 1.30pm", "Saya ingin menempah meja pada jam 2.30pm", "Saya ingin menempah meja pada jam 3.30pm","Saya ingin menempah meja pada jam 4.30pm", "Saya ingin menempah meja pada jam 5.30pm", "Saya ingin menempah meja pada jam 6.30pm", "Saya ingin menempah meja pad jam 7.30pm", "Saya ingin menempah meja pada jam 8.30pm", "Saya ingin menempah meja pada jam 9.30pm", "Saya ingin menempah meja pada jam 10.30pm", "Saya ingin menempah meja untuk 10pm", "Boleh saya menempah meja pada pukul 1pm?", "Boleh saya menempah meja pada pukul 2pm?", "Boleh saya menempah meja pada pukul 3pm?", "Boleh saya menempah meja pada pukul 4pm?", "Boleh saya menempah meja pada pukul 5pm?", "Boleh saya menempah meja pada pukul 6pm?", "Boleh saya menempah meja pada pukul 7pm?", "Boleh saya menempah meja pada pukul 8pm?", "Boleh saya menempah meja pada pukul 9pm?", "Boleh saya menempah meja pada pukul 10pm?", "Boleh saya menempah meja untuk pukul satu petang?", "Boleh saya menempah meja untuk pukul dua petang?", "Boleh saya menempah meja untuk pukul tiga petang?", "Boleh saya menempah meja untuk pukul empat petang?", "Boleh saya menempah meja untuk pukul lima petang?", "Boleh saya menempah meja untuk pukul enam petang?", "Boleh saya menempah meja untuk pukul tujuh petang?", "Boleh saya menempah meja untuk pukul lapan malam?", "Boleh saya menempah meja untuk pukul sembilan malam?", "Boleh saya menempah meja untuk pukul sepuluh malam?"],
+      "responses": [ "Beep! Tempahan Meja telah diselesai! Harap kita jumpa lagi :3", "Boop! Meja telah ditempah oleh saya :> Kita jumpa lagi!" ]
+    },
+
+    {
+      "tags": "show_menu",
+      "patterns": [ "Restoran ini jual apa?", "Bolehkan saya tanya menu restoran ini?", "Apakan menu restoran ini?", "Boleh tunjukkan menu tak?", "menu", "Saya ingin membuat pesanan melalui menu", "Mana menu restoran anda?"],
+      "responses": [ "Masakan Melayu seperti nasi lemak, nasi gaul, nasi kandar, nasi kerabu, bihun goreng, otak-otak, lemang, ketupat, rendang ayam, ayam sambal, kerutup ayam kelantan, ayam percik, daging masak hitam, daging gulai, asam pedas ikan pari, asam pedas ikan kembung, ikan keli goreng berlada, ikan cencaru sumbat" ]
+    },
+
+    {
+      "tags": "suggest_order",
+      "patterns": [ "Adakah apa makanan yang dicadangkan untuk kami?", "Apakah makanan terbaik di restoran anda?", "Cadangkan makanan untuk kami", "Apakah makanan yang viral di restoran anda?", "Makanan terbaik", "Menu viral", "Makanan yang dicadangkan oleh anda adalah?", "Kepala saya pening sangat kerana tidak dapat membuat keputusan atas pilihan makanan" ],
+      "responses": [ "Ada ya Beep! Makanan yang disuka oleh pelanggan lain adalah nasi lemak dan otak-otak yang segar dibuat. Restoran kami mempunyai resipe rahsia untuk nasi lemak dan resipi ini membenarkan restoran kami jadi restoran viral di Setapak!" ]
+    },
+
+    {
+      "tags": "covid",
+      "patterns": [ "Bagaimana protokol covid restoran anda dilaksanakan?", "Adakah restoran anda selamat daripada covid?", "covid", "polisi-polisi covid", "Adakah restoran anda mengikuti SOP Malaysia", "Pekerja dalam restoran tersebut sihat dari COVID?" ],
+      "responses": [ "Restoran kami akan membersih dan membasmikan kuman selepas setiap pelanggan meninggal restoran kami", "Restoran kami memastikan kakitangan kami tidak mempunyai covid dan ini boleh dipastikan dengan mangadakan semakan covid pada setiap sabtu sebelum restoran kami dibuka" ]
+    },
+
+    {
+      "tags": "offers",
+      "patterns": [ "Nak tanya ada promosi tak?", "Apakah promosi restoran anda?", "Adakah apa-apa tawaran di restoran anda?", "Promosi yang terbaharu dalam restoran anda?" ],
+      "responses": [ "Ada ya Boop! Kami mempunyai promosi semasa HARI JADI anda! Kami akan memberi diskaun sebanyak 50% untuk pesanan anda :>" ]
+    },
+
+    {
+      "tags": "vegan_option",
+      "patterns": [ "Nak tanya ada masakan untuk vegetarian tak?", "vegetarian" ],
+      "responses": [ "Memaafkan, restoran in tidak ada masakan untuk vegetarian." ]
+    },
+
+    {
+      "tags": "open_hours",
+      "patterns": [ "Bilakah restoran anda dibuka?", "Masa operasi restoran", "Bilakah restoran anda ditutup?", "Masa beroperasi?"],
+      "responses": [ "Beep! Restoran kami dibuka dari pukul 1 petang hingga pukul 11 malam ya! Restoran kami beroperasi setiap hari pada setiap minggu!" ]
+    },
+
+    {
+      "tags": "address",
+      "patterns": [ "Nak tanya restoran ini di mana?", "Manakah restoran ini?", "Restoran ini terletak di mana?", "Manakah boleh saya cari restoran ini?", "Mana?", "Saya ingin mengetahui tempat yang dilokasi oleh restoran anda", "Bolehkah anda memberikan lokasi restoran tersebut?", "lokasi"],
+      "responses": [ "Restoran ini terletak di Setapak, Kuala Lumpur. Alamat restoran ini: RDS Restoran, 3, Jalan 14/27b, Desa Setapak, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur" ]
+    },
+
+    {
+      "tags": "contact",
+      "patterns": [ "Nak tanya macam mana untuk menghubungi anda?", "Minta nombor telefon", "Apakah nombor telefon restoran ini?", "telefon", "nombor telefon", "Macam mana untuk berhubung dengan pekerja restoran anda?"],
+      "responses": [ "Boop. Nombor telefon RDS restoran ialah 011-67890123 :D", "011-67890123" ]
+    },
+
+    {
+      "tags": "online",
+      "patterns": [ "Bolehkah kami order secara talian?", "Adakah servis food delivery di restoran anda?", "Adakah restoran anda menyediakan servis talian?" ],
+      "responses": [ "Makanan restoran kami tidak boleh diorder secara delivery dan kami tidak mempunyai servis delivery ye Beep. Ini disebabkan restoran kami ingin membolehkan pelanggan kami dapat rasa makanan pada masa optimal kami" ]
+
+    },
+
+    {
+      "tags": "complaints",
+      "patterns":["teruklah makanan di restoran ini", "teruklah servis di restoran ini", "rasa makanan di restoran ini boleh ditambah baik lagi", "rasa servis di restoran ini boleh ditambah baik lagi", "tidak suka restoran ini", "restoran ini teruk", "tidak akan cadangkan restoran ini kepada pelanggan lain"],
+      "responses":["Minta maaf ya :< Kami akan menambah baik perkhidmatan kami di masa hadapan. Harap Tuan/Puan boleh terus sokong restoran kami :<"]
+    },
+
+    {
+      "tags": "feedback",
+      "patterns":["Bagusnya servis restoran ini", "Bagusnya rasa makanan ini", "Saya suka rasa makanan di restoran ini", "saya suka servis di restoran ini", "Murahnya makanan di sini", "Harap semua boleh datang restoran ini sebab rasa makanannya lazat dan sedap"],
+      "responses":["Terima kasih sayang :3, Harap kita boleh jumpa lagi dan juga harap anda pulang balik restoran kami lagi :3"]   
+    },
+
+    {
+      "tags": "goodbye",
+      "patterns": [ "Saya akan meninggalkan sini sekarang", "Jumpa nanti", "Selamat tinggal", "Jaga diri", "Bye", "syabas", "jangak"],
+      "responses": [ "Saya berbesar hati untuk melayan anda!", "Semoga berjumpa nanti! Selamat tinggal!", "Jumpa anda nanti! Selamat tinggal!" ]
+    }
+
+
+  ]
+}
